@@ -26,4 +26,4 @@ jobs:
     - name: Push commit
       run: |
         git status
-        git push origin main
+        git push origin HEAD:main
