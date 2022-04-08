@@ -1,4 +1,4 @@
-name: "bump package version with ${{ github.event.inputs.name }}"
+name: "bump package version"
 
 on: 
   workflow_dispatch:
