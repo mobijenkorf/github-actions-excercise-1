@@ -24,6 +24,4 @@ jobs:
     - name: Bump version
       run: "npm version ${{ github.event.inputs.name }}"
     - name: Push commit
-      run: |
-        git status
-        git push origin HEAD:main
+      run: git push
